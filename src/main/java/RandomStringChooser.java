@@ -17,6 +17,7 @@ public class RandomStringChooser
       w = a.get(r);
       a.remove(r);
       return w;
+    }
   }
   //Heads up! 
   //You will get a very confusing error message until you have working code in part b as well

@@ -13,8 +13,8 @@ public class RandomStringChooser
     if(a.size() == 0)
       return "NONE";
     else{
-      r = (int)(Math.random()*a.length);
-      w = a.get(r);
+      int r = (int)(Math.random()*a.length);
+      String w = a.get(r);
       a.remove(r);
       return w;
     }

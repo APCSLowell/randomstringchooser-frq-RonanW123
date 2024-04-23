@@ -9,11 +9,10 @@ public class RandomStringChooser
       a.add(x[i]);
   }
   public String getNext(){
-    String w;
     if(a.size() == 0)
       return "NONE";
     else{
-      int r = (int)(Math.random()*a.length);
+      int r = (int)(Math.random()*a.size());
       String w = a.get(r);
       a.remove(r);
       return w;
